@@ -1,0 +1,42 @@
+html,
+body,
+#map {
+  margin: 0;
+  padding: 0;
+}
+
+.details-info {
+  margin-bottom: 10px;
+}
+
+.details-label {
+  color: gray;
+  text-transform: uppercase;
+  font-size: 0.6em;
+}
+
+.details-title {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.details-state {
+  font-size: 0.8em;
+  color: white;
+  display: inline-block;
+  border-radius: 0.2em;
+  padding: .4em .8em;
+  line-height: 1;
+}
+
+.details-state_active {
+  background-color: limegreen;
+}
+
+.details-state_defective {
+  background-color: red;
+}
+
+.details-state_connections {
+  background-color: gray;
+}
